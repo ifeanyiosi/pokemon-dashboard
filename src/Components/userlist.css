@@ -1,0 +1,39 @@
+.userlist{
+    flex: 1;
+    background-color: aliceblue;
+    padding: 30px 50px;
+    height: 100vh;
+    margin-bottom: 10px;
+}
+
+    .userListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.userListDelete{
+    color: red;
+    cursor: pointer;
+}
+
+.widgetSmTitle{
+    font-weight: 600;
+}
+
+.userAddButton{
+    width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  margin-left: 30px;
+  padding: 10px;
+}
