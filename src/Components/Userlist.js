@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { DataGrid } from '@material-ui/data-grid'
 import {AiOutlineDelete} from 'react-icons/ai'
 import { Link } from 'react-router-dom'
-import { BounceLoader } from 'react-spinners'
+
 
 
 import './userlist.css'
@@ -13,15 +13,10 @@ function Userlist() {
 
     const  [loader, showLoader, hideLoader] = useFullPageLoader();
 
-    const [loading, setLoading] = useState(false);
-
-   
     // feth method was used to call the API
    
 
     const [users, fetchUsers] = useState([]);
-
-    
 
   const handleDelete = (id) => {
         fetch(`https://62823e3c9fac04c65411c0b5.mockapi.io/users/${id}`, {method: 'DELETE'})

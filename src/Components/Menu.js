@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Menu.css";
-import logo from "../img/logo.jpg";
+import logo from "../img/logo.png";
 import {
   FaShoppingCart,
   FaWallet,
@@ -9,6 +9,7 @@ import {
   FaCog,
   FaSignOutAlt,
   FaUserAlt,
+  FaHome
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -31,7 +32,7 @@ function Menu() {
   return (
     <menu>
       <Link to="/">
-      <img src='https://www.transparentpng.com/thumb/home/Y0DWoN-home-simple.png' alt="" />
+      <img src= {logo} alt="" />
       </Link>
 
       <ul id="mainMenu">

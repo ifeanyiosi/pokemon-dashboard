@@ -47,9 +47,9 @@
 }
 
 .newUserButton{
-    width: 200px;
+    width: 100px;
     border: none;
-    background-color: darkblue;
+    background: linear-gradient(#ff21bc, #b21783);
     color: white;
     padding: 7px 10px;
     font-weight: 600;
